@@ -203,3 +203,8 @@ add_filter('nav_menu_link_attributes', 'add_menu_link_class', 1, 3);
 /* Redux On */
 // подключаем redux 
 require get_template_directory() . '/inc/settings.php';
+
+function my_acf_add_local_field_groups() {
+    remove_filter('acf_the_content', 'wpautop' );
+}
+add_action('acf/init', 'my_acf_add_local_field_groups');

@@ -31,7 +31,7 @@
 	<header class="pt-2 sticky-top">
 		<nav class="navbar navbar-expand-lg">
 			<div class="container header">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="/">
 					<img src="<?php echo $redux_demo['logo']['url']; ?>" alt="logo">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
