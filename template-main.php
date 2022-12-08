@@ -7,18 +7,20 @@ get_header();
     <div class="container" style="background: linear-gradient(89.37deg, #1C60E3 -2.53%, #D3D3D3 102.52%);">
         <div class="row">
             <div class="col-lg-6 d-flex align-items-end start__left">
-                <img src="assets/img/start.png" alt="marketing img">
+                <img src="<?php the_field('start_banner_img'); ?>" alt="marketing img">
             </div>
             <div class="col-lg-6 d-flex align-items-center strart__right p-5 p-lg-0">
                 <div class="start__text">
                     <h1 class="pb-4">
-                        Restauración de la propiedad
+                        <p>
+                            <?php the_field('start_banner_title'); ?>
+                        </p>
                     </h1>
                     <div class="pb-4">
-                        De una empresa confiable con amplia experiencia
+                        <?php the_field('start_banner_description'); ?>
                     </div>
                     <button class="btn start__btn" style="background: #005BE2;" data-bs-toggle="modal" data-bs-target="#callBack">
-                        Información Adicional
+                        <?php the_field('start_banner_btn'); ?>
                     </button>
                 </div>
             </div>
@@ -32,7 +34,7 @@ get_header();
                 <div class="stars__card text-center align-items-center d-flex justify-content-center flex-wrap">
                     <i class="bi bi-house-heart"></i>
                     <div>
-                        5 años en construcción
+                        <?php the_field('advantages_13'); ?>
                     </div>
                 </div>
             </div>
@@ -40,8 +42,7 @@ get_header();
                 <div class="stars__card text-center align-items-center d-flex justify-content-center flex-wrap">
                     <i class="bi bi-building-up"></i>
                     <div>
-                        De confianza
-                        desarrollador
+                        <?php the_field('advantages_23'); ?>
                     </div>
                 </div>
             </div>
@@ -49,7 +50,7 @@ get_header();
                 <div class="stars__card text-center align-items-center d-flex justify-content-center flex-wrap">
                     <i class="bi bi-shield-check"></i>
                     <div>
-                        Estabilidad y experiencia
+                        <?php the_field('advantages_33'); ?>
                     </div>
                 </div>
             </div>

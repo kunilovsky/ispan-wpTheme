@@ -19,17 +19,17 @@
 			<div class="col-lg-4 footer__logo p-3 text-lg-start text-center">
 				<img src="<?php echo $redux_demo["logo"]['url']; ?>" alt="logo">
 				<div class="pt-3">
-					Reservados todos los derechos © 2022
+					Reservados todos los derechos © <?php echo date('Y'); ?>
 				</div>
 			</div>
 			<div class="col-lg-4 text-center">
 				<button class="btn footer__btn" data-bs-toggle="modal" data-bs-target="#callBack">
-					Escríbenos
+					<?php echo $redux_demo["footer_btn"]; ?>
 				</button>
 			</div>
 			<div class="col-lg-4 text-lg-end text-center footer__link p-3">
-				<a href="tel:+34 918 85 64 87" class="footer__contact">+34 918 85 64 87</a>
-				<a href="mailto:example@example.com" class="footer__contact">example@example.com</a>
+				<a href="tel:<?php echo $redux_demo["phone"]; ?>" class="footer__contact"><?php echo $redux_demo["phone"]; ?></a>
+				<a href="mailto:<?php echo $redux_demo["mail"]; ?>" class="footer__contact"><?php echo $redux_demo["mail"]; ?></a>
 				<a href="#" class="footer__contact text-decoration-underline">Política de privacidad</a>
 			</div>
 		</div>

@@ -2,7 +2,7 @@
 
 /**
  * ReduxFramework Sample Config File
- * For full documentation, please visit: http://devs.redux.io/
+ * 
  *
  * @package Redux Framework
  */
@@ -483,7 +483,6 @@ Redux::set_section(
 		'id'    => 'redux-extensions',
 		'icon'  => 'el el-redux',
 		'class' => 'pro_highlight',
-		'desc'  => esc_html__('For full documentation on this field, visit: ', 'your-textdomain-here') . '<a href="https://devs.redux.io/core-extensions/" target="_blank">https://devs.redux.io/core-extensions/</a>',
 	)
 );
 
